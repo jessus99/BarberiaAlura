@@ -1,0 +1,55 @@
+header{
+    background: url(imagenes/bg.jpg);
+    padding: 20px 0;
+
+}
+
+.encabezado{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+    text-decoration:underline;
+}
+nav a:active{
+    border-color: green;
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    margin: 20px;
+}
